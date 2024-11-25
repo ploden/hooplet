@@ -1,13 +1,13 @@
 //
-//  HooplaUITestsLaunchTests.swift
+//  HoopletUITestsLaunchTests.swift
 //  HooplaUITests
 //
-//  Created by Philip Loden on 11/23/24.
+//  Created by Phil Loden on 11/23/24.
 //
 
 import XCTest
 
-final class HooplaUITestsLaunchTests: XCTestCase {
+final class HoopletUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

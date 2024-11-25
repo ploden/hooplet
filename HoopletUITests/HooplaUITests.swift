@@ -1,13 +1,13 @@
 //
-//  HooplaUITests.swift
-//  HooplaUITests
+//  HoopletUITests.swift
+//  HoopletUITests
 //
-//  Created by Philip Loden on 11/23/24.
+//  Created by Phil Loden on 11/23/24.
 //
 
 import XCTest
 
-final class HooplaUITests: XCTestCase {
+final class HoopletUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

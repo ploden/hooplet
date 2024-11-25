@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8D67E6522CF299990041FB15 /* Hoopla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hoopla.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D67E6622CF2999B0041FB15 /* HooplaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HooplaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D67E66C2CF2999B0041FB15 /* HooplaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HooplaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D67E6522CF299990041FB15 /* Hooplet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hooplet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D67E6622CF2999B0041FB15 /* HoopletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoopletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D67E66C2CF2999B0041FB15 /* HoopletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoopletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		8D67E6542CF299990041FB15 /* Hoopla */ = {
+		8D67E6542CF299990041FB15 /* Hooplet */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Hoopla;
+			path = Hooplet;
 			sourceTree = "<group>";
 		};
-		8D67E6652CF2999B0041FB15 /* HooplaTests */ = {
+		8D67E6652CF2999B0041FB15 /* HoopletTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HooplaTests;
+			path = HoopletTests;
 			sourceTree = "<group>";
 		};
-		8D67E66F2CF2999B0041FB15 /* HooplaUITests */ = {
+		8D67E66F2CF2999B0041FB15 /* HoopletUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HooplaUITests;
+			path = HoopletUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,10 @@
 		8D67E6492CF299990041FB15 = {
 			isa = PBXGroup;
 			children = (
-				8D67E6542CF299990041FB15 /* Hoopla */,
-				8D67E6652CF2999B0041FB15 /* HooplaTests */,
-				8D67E66F2CF2999B0041FB15 /* HooplaUITests */,
+				8D67E6542CF299990041FB15 /* Hooplet */,
+				8D67E6652CF2999B0041FB15 /* HoopletTests */,
+				8D67E66F2CF2999B0041FB15 /* HoopletUITests */,
+				8DAD2E402CF41D2B006EB0B3 /* Frameworks */,
 				8D67E6532CF299990041FB15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,19 +86,26 @@
 		8D67E6532CF299990041FB15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D67E6522CF299990041FB15 /* Hoopla.app */,
-				8D67E6622CF2999B0041FB15 /* HooplaTests.xctest */,
-				8D67E66C2CF2999B0041FB15 /* HooplaUITests.xctest */,
+				8D67E6522CF299990041FB15 /* Hooplet.app */,
+				8D67E6622CF2999B0041FB15 /* HoopletTests.xctest */,
+				8D67E66C2CF2999B0041FB15 /* HoopletUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8DAD2E402CF41D2B006EB0B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D67E6512CF299990041FB15 /* Hoopla */ = {
+		8D67E6512CF299990041FB15 /* Hooplet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D67E6762CF2999B0041FB15 /* Build configuration list for PBXNativeTarget "Hoopla" */;
+			buildConfigurationList = 8D67E6762CF2999B0041FB15 /* Build configuration list for PBXNativeTarget "Hooplet" */;
 			buildPhases = (
 				8D67E64E2CF299990041FB15 /* Sources */,
 				8D67E64F2CF299990041FB15 /* Frameworks */,
@@ -108,18 +116,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				8D67E6542CF299990041FB15 /* Hoopla */,
+				8D67E6542CF299990041FB15 /* Hooplet */,
 			);
-			name = Hoopla;
+			name = Hooplet;
 			packageProductDependencies = (
 			);
 			productName = Hoopla;
-			productReference = 8D67E6522CF299990041FB15 /* Hoopla.app */;
+			productReference = 8D67E6522CF299990041FB15 /* Hooplet.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8D67E6612CF2999B0041FB15 /* HooplaTests */ = {
+		8D67E6612CF2999B0041FB15 /* HoopletTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D67E6792CF2999B0041FB15 /* Build configuration list for PBXNativeTarget "HooplaTests" */;
+			buildConfigurationList = 8D67E6792CF2999B0041FB15 /* Build configuration list for PBXNativeTarget "HoopletTests" */;
 			buildPhases = (
 				8D67E65E2CF2999B0041FB15 /* Sources */,
 				8D67E65F2CF2999B0041FB15 /* Frameworks */,
@@ -131,18 +139,18 @@
 				8D67E6642CF2999B0041FB15 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				8D67E6652CF2999B0041FB15 /* HooplaTests */,
+				8D67E6652CF2999B0041FB15 /* HoopletTests */,
 			);
-			name = HooplaTests;
+			name = HoopletTests;
 			packageProductDependencies = (
 			);
 			productName = HooplaTests;
-			productReference = 8D67E6622CF2999B0041FB15 /* HooplaTests.xctest */;
+			productReference = 8D67E6622CF2999B0041FB15 /* HoopletTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8D67E66B2CF2999B0041FB15 /* HooplaUITests */ = {
+		8D67E66B2CF2999B0041FB15 /* HoopletUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D67E67C2CF2999B0041FB15 /* Build configuration list for PBXNativeTarget "HooplaUITests" */;
+			buildConfigurationList = 8D67E67C2CF2999B0041FB15 /* Build configuration list for PBXNativeTarget "HoopletUITests" */;
 			buildPhases = (
 				8D67E6682CF2999B0041FB15 /* Sources */,
 				8D67E6692CF2999B0041FB15 /* Frameworks */,
@@ -154,13 +162,13 @@
 				8D67E66E2CF2999B0041FB15 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				8D67E66F2CF2999B0041FB15 /* HooplaUITests */,
+				8D67E66F2CF2999B0041FB15 /* HoopletUITests */,
 			);
-			name = HooplaUITests;
+			name = HoopletUITests;
 			packageProductDependencies = (
 			);
 			productName = HooplaUITests;
-			productReference = 8D67E66C2CF2999B0041FB15 /* HooplaUITests.xctest */;
+			productReference = 8D67E66C2CF2999B0041FB15 /* HoopletUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +194,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8D67E64D2CF299990041FB15 /* Build configuration list for PBXProject "Hoopla" */;
+			buildConfigurationList = 8D67E64D2CF299990041FB15 /* Build configuration list for PBXProject "Hooplet" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,14 +203,16 @@
 			);
 			mainGroup = 8D67E6492CF299990041FB15;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8D67E6532CF299990041FB15 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D67E6512CF299990041FB15 /* Hoopla */,
-				8D67E6612CF2999B0041FB15 /* HooplaTests */,
-				8D67E66B2CF2999B0041FB15 /* HooplaUITests */,
+				8D67E6512CF299990041FB15 /* Hooplet */,
+				8D67E6612CF2999B0041FB15 /* HoopletTests */,
+				8D67E66B2CF2999B0041FB15 /* HoopletUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +268,12 @@
 /* Begin PBXTargetDependency section */
 		8D67E6642CF2999B0041FB15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D67E6512CF299990041FB15 /* Hoopla */;
+			target = 8D67E6512CF299990041FB15 /* Hooplet */;
 			targetProxy = 8D67E6632CF2999B0041FB15 /* PBXContainerItemProxy */;
 		};
 		8D67E66E2CF2999B0041FB15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D67E6512CF299990041FB15 /* Hoopla */;
+			target = 8D67E6512CF299990041FB15 /* Hooplet */;
 			targetProxy = 8D67E66D2CF2999B0041FB15 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -393,10 +403,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Hoopla/Preview Content\"";
-				DEVELOPMENT_TEAM = B4553A7542;
+				DEVELOPMENT_ASSET_PATHS = "\"Hooplet/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -409,8 +419,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.deovolentellc.Hoopla;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.Hooplet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,10 +433,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Hoopla/Preview Content\"";
-				DEVELOPMENT_TEAM = B4553A7542;
+				DEVELOPMENT_ASSET_PATHS = "\"Hooplet/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -438,8 +449,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.deovolentellc.Hoopla;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.Hooplet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,7 +473,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hoopla.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hoopla";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hooplet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hooplet";
 			};
 			name = Debug;
 		};
@@ -480,7 +492,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hoopla.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hoopla";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hooplet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hooplet";
 			};
 			name = Release;
 		};
@@ -521,7 +533,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8D67E64D2CF299990041FB15 /* Build configuration list for PBXProject "Hoopla" */ = {
+		8D67E64D2CF299990041FB15 /* Build configuration list for PBXProject "Hooplet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D67E6742CF2999B0041FB15 /* Debug */,
@@ -530,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D67E6762CF2999B0041FB15 /* Build configuration list for PBXNativeTarget "Hoopla" */ = {
+		8D67E6762CF2999B0041FB15 /* Build configuration list for PBXNativeTarget "Hooplet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D67E6772CF2999B0041FB15 /* Debug */,
@@ -539,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D67E6792CF2999B0041FB15 /* Build configuration list for PBXNativeTarget "HooplaTests" */ = {
+		8D67E6792CF2999B0041FB15 /* Build configuration list for PBXNativeTarget "HoopletTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D67E67A2CF2999B0041FB15 /* Debug */,
@@ -548,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D67E67C2CF2999B0041FB15 /* Build configuration list for PBXNativeTarget "HooplaUITests" */ = {
+		8D67E67C2CF2999B0041FB15 /* Build configuration list for PBXNativeTarget "HoopletUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D67E67D2CF2999B0041FB15 /* Debug */,
